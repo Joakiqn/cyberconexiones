@@ -6,6 +6,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 /* --Common Style-- */
@@ -248,7 +249,7 @@ header{
   margin: 10px auto;
   text-decoration: none;
   transition: 0.2s;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  position: relative;
 }
 
 .boton-1 i{
