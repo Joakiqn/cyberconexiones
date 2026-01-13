@@ -10,99 +10,158 @@
 
 </head>
 <body>
-    <header>
-      <div class="container">
-        <nav class="nav-menu">
-          <div class="logo-container">
-            <div class="logo">
-              <img src="logo-cyber-3.png" alt="Logo de CyberConexiones">
-            </div>
-            <span>CyberConexiones</span>
+  <header>
+    <div class="container">
+      <nav class="nav-menu">
+        <div class="logo-container">
+          <div class="logo">
+            <img src="logo-cyber-3.png" alt="Logo de CyberConexiones">
           </div>
-          <input type="checkbox" id="menu-toggle">
-          <label for="menu-toggle" class="menu-icon">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </label>  
+          <span>CyberConexiones</span>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>  
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li><a href="productos.html">PRODUCTOS</a></li>
+          <li><a href="ubicacion.html">UBICACIÓN</a></li>
+        </ul>
+        <div class="exchange-container">
+          <div class="exchange-rate-display">
+            Dólar BCV: <span id="rate-value">Cargando...</span>VES
+          </div>
+        </div>  
+      </nav>
+    </div>  
+  </header>
 
-          <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="ubicacion.html">UBICACIÓN</a></li>
-          </ul>
+  <main>
+    <section class="products-section" id="productos">
+      <div class="container">
+        <h2 class="section-title oculto">Nuestros Productos</h2>
+        <div class="products-grid">
+          <div class="product-card oculto retraso-1">
+            <img src="producto-1.webp" alt="Teclado Mecánico RGB">
+              <div class="product-info">
+                <h3>Auriculares Inalambricos M39 TWS</h3>
+                <span class="price" data-usd-price="12">12 USD</span>
+                <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                  class="btn-detail" target="_blank" rel="noopener noreferrer">
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-arrow-right icono-normal"></i>
+                    <i class="fa-solid fa-cart-shopping icono-hover"></i>
+                  </div>
+                  <span>Comprar</span>
+                </a>
+              </div>
+          </div>
 
-          <div class="exchange-container">
-            <div class="exchange-rate-display">
-              Dólar BCV: <span id="rate-value">Cargando...</span>VES
-            </div>
-          </div>  
-        </nav>
-      </div>  
-    </header>
+          <div class="product-card oculto retraso-1">
+            <img src="producto-5.webp" alt="Auricular Moto">
+              <div class="product-info">
+                <h3>Auricular Bluetooth de Casco para Moto</h3>
+                <span class="price" data-usd-price="35">35 USD</span>
+                <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                  class="btn-detail" target="_blank" rel="noopener noreferrer">
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-arrow-right icono-normal"></i>
+                    <i class="fa-solid fa-cart-shopping icono-hover"></i>
+                  </div>
+                  <span>Comprar</span>
+                </a>
+              </div>
+          </div>
 
-    <main>
-<section class="products-section" id="productos">
-        <div class="container">
-          <h2 class="section-title oculto">Nuestros Productos</h2>
-          <div class="products-grid">
+          <div class="product-card oculto retraso-1">
+            <img src="producto-6.webp" alt="Soporte Carro" loading="lazy">
+              <div class="product-info">
+                <h3>Soporte para Carro XO C76</h3>
+                  <span class="price" data-usd-price="12">12 USD</span>
+                  <a href="https://wa.me/584120347922..." class="btn-detail" target="_blank">
+                    <div class="icon-wrapper">
+                      <i class="fa-solid fa-arrow-right icono-normal"></i>
+                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
+                    </div>
+                    <span>Comprar</span>
+                  </a>
+              </div>
+          </div>
               
-              <div class="product-card oculto retraso-1">
-                  <img src="producto-1.webp" alt="Teclado Mecánico RGB">
-                  <div class="product-info">
-                      <h3>Auriculares Inalambricos M39 TWS</h3>
-                      <span class="price" data-usd-price="12">12 USD</span>
-
-                      <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
+          <div class="product-card oculto retraso-2">
+            <img src="producto-2.webp" alt="Auriculares YD02" loading="lazy">
+              <div class="product-info">
+                <h3>Auriculares Inalambricos YD02 TWS</h3>
+                <span class="price" data-usd-price="15">15 USD</span>
+                <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                  class="btn-detail" target="_blank" rel="noopener noreferrer">
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-arrow-right icono-normal"></i>
+                    <i class="fa-solid fa-cart-shopping icono-hover"></i>
                   </div>
+                  <span>Comprar</span>
+                </a>
               </div>
-
-              <div class="product-card oculto retraso-1">
-                  <img src="producto-5.webp" alt="Auricular Moto">
-                  <div class="product-info">
-                      <h3>Auricular Bluetooth de Casco para Moto</h3>
-                      <span class="price" data-usd-price="35">35 USD</span>
-
-                     <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
-                  </div>
-              </div>
-
-              <div class="product-card oculto retraso-1">
-                  <img src="producto-6.jpg" alt="Soporte Carro">
-                  <div class="product-info">
-                      <h3>Soporte para Carro XO C76</h3>
-                      <span class="price" data-usd-price="12">12 USD</span>
-                      <a href="https://wa.me/584120347922..." class="btn-detail" target="_blank">
+          </div>
+              
+            <div class="product-card oculto retraso-3">
+              <img src="producto-3.webp" alt="Gancho Cargador" loading="lazy">
+                <div class="product-info">
+                  <h3>Gancho Cargador USB para Moto</h3>
+                  <span class="price" data-usd-price="8">8 USD</span>
+                    <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                      class="btn-detail" target="_blank" rel="noopener noreferrer">
                       <div class="icon-wrapper">
                         <i class="fa-solid fa-arrow-right icono-normal"></i>
                         <i class="fa-solid fa-cart-shopping icono-hover"></i>
                       </div>
                       <span>Comprar</span>
-                    </a>
-                  </div>
-              </div>
+                   </a>
+                </div>
+            </div>
+
+            <div class="product-card oculto retraso-1">
+              <img src="producto-7.webp" alt="Porta Celular" loading="lazy">
+                <div class="product-info">
+                  <h3>Vimstrom Porta Celular para Moto</h3>
+                  <span class="price" data-usd-price="12">12 USD</span>
+                  <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                    class="btn-detail" target="_blank" rel="noopener noreferrer">
+                    <div class="icon-wrapper">
+                      <i class="fa-solid fa-arrow-right icono-normal"></i>
+                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
+                    </div>
+                    <span>Comprar</span>
+                  </a>
+                </div>
+            </div>
+
+            <div class="product-card oculto retraso-1">
+              <img src="producto-8.webp" alt="Power Bank" loading="lazy">
+                <div class="product-info">
+                  <h3>Power Bank Solar</h3>
+                  <span class="price" data-usd-price="25">25 USD</span>
+                  <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+                    class="btn-detail" target="_blank" rel="noopener noreferrer">
+                    <div class="icon-wrapper">
+                      <i class="fa-solid fa-arrow-right icono-normal"></i>
+                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
+                    </div>
+                    <span>Comprar</span>
+                  </a>
+                </div>
+            </div>
               
-              <div class="product-card oculto retraso-2">
-                  <img src="producto-2.webp" alt="Auriculares YD02">
-                  <div class="product-info">
-                      <h3>Auriculares Inalambricos YD02 TWS</h3>
-                      <span class="price" data-usd-price="15">15 USD</span>
-                      <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
+            <div class="product-card oculto retraso-4">
+              <img src="producto-4.webp" alt="Cargador V-MEN" loading="lazy">
+                <div class="product-info">
+                  <h3>Cargador Inteligente V-MEN</h3>
+                  <span class="price" data-usd-price="12">12 USD</span>
+                  <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
                     class="btn-detail" target="_blank" rel="noopener noreferrer">
                     <div class="icon-wrapper">
                       <i class="fa-solid fa-arrow-right icono-normal"></i>
@@ -110,81 +169,14 @@
                     </div>
                     <span>Comprar</span>
                   </a>
-                  </div>
-              </div>
-              
-              <div class="product-card oculto retraso-3">
-                  <img src="producto-3.webp" alt="Gancho Cargador">
-                  <div class="product-info">
-                      <h3>Gancho Cargador USB para Moto</h3>
-                      <span class="price" data-usd-price="8">8 USD</span>
-
-                     <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
-                  </div>
-              </div>
-
-              <div class="product-card oculto retraso-1">
-                  <img src="producto-7.jpg" alt="Porta Celular">
-                  <div class="product-info">
-                      <h3>Vimstrom Porta Celular para Moto</h3>
-                      <span class="price" data-usd-price="12">12 USD</span>
-
-                      <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
-                  </div>
-              </div>
-
-              <div class="product-card oculto retraso-1">
-                  <img src="producto-8.webp" alt="Power Bank">
-                  <div class="product-info">
-                      <h3>Power Bank Solar</h3>
-                      <span class="price" data-usd-price="25">25 USD</span>
-
-                      <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
-                  </div>
-              </div>
-              
-              <div class="product-card oculto retraso-4">
-                  <img src="producto-4.webp" alt="Cargador V-MEN">
-                  <div class="product-info">
-                      <h3>Cargador Inteligente V-MEN</h3>
-                      <span class="price" data-usd-price="12">12 USD</span>
-                      
-                      <a href="https://wa.me/584120347922?text=Me%20interesa%20el%20producto%20Auricular%20Moto" 
-                    class="btn-detail" target="_blank" rel="noopener noreferrer">
-                    <div class="icon-wrapper">
-                      <i class="fa-solid fa-arrow-right icono-normal"></i>
-                      <i class="fa-solid fa-cart-shopping icono-hover"></i>
-                    </div>
-                    <span>Comprar</span>
-                  </a>
-                  </div>
-              </div>
+                </div>
+            </div>
           </div>
         </div>
       </section>
-</main>
-<footer>
+    </main>
+
+  <footer>
     <div class="container">
       <div class="footer-content"> 
       <div class="footer-col brand-col">
