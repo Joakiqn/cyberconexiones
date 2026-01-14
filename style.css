@@ -338,8 +338,38 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
+  .section-hero{
+    height: auto;
+    min-height: 100svh;
+    padding: 100px 0 60px 0;
+  }
+
   .hero-title {
-    font-size: 2.5rem; 
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+
+  .hero-desc{
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+  }
+  .btn-primary, .btn-outline {
+    width: 70%;            
+    max-width: 250px;      
+    padding: 12px 0;       
+    text-align: center;     
+    display: inline-block;
   }
 
   .features-section {
@@ -357,19 +387,8 @@
     aspect-ratio: 1/1;
     margin-top: 30px; 
   }
-  .hero-buttons {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-  }
-  .btn-primary, .btn-outline {
-    width: 40%;
-    text-align: center; 
-  }
 
-  .service-card h3{
+  .service-card h1{
     font-size: 1.7rem;
     margin: 0;
     padding: 0;

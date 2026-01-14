@@ -507,10 +507,39 @@ footer {
 }
 
 @media (max-width: 480px) {
-    
-  .title {
-    font-size: 2rem; 
+  
+  .nav-menu{
+    padding: 10px;
+    justify-content: space-between;
   }
+
+  .logo-container{
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo-container span {
+    display: none;
+  }
+
+  .logo-container .logo{
+    width: 55px;
+    width: 55px;
+  }
+
+  .exchange-container{
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .exchange-rate-display{
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    white-space: nowrap;
+    min-width: 140px;
+    text-align: center;
+  }
+
   .footer-content {
     display: flex;
     flex-direction: column;
